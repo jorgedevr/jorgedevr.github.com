@@ -10,6 +10,7 @@
       container.classList.remove("animated");
       container.classList.add("fadeOutUp");
       container.classList.add("animated");
+      
       setTimeout(()=>{
         location.href = "/restaurantes";
       },600);

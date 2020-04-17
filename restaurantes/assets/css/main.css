@@ -54,6 +54,7 @@ a:focus{
   overflow-y: scroll;
   overflow-x: hidden;
 
+
 }
 .content{
   padding: 1em;
@@ -145,7 +146,7 @@ th{
 
 
   /*lohacen mas adactativo  mobile first*/
-  @media (min-width:900px) {
+  @media (min-width:1000px) {
     th{
 
       display: table-cell;
@@ -165,7 +166,7 @@ th{
     }
 
   }
-  @media (min-height:550px) {
+  @media (min-height:1000px) {
     .content{
       height: 500px;
 
