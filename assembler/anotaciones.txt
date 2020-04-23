@@ -1,0 +1,1 @@
+"Codigo duro" que compara el residuo de una división(emulando %2) para determinar si un numero es par o impar.
