@@ -10,7 +10,7 @@ comp db 0h
 
 CODESEG
 
-Main: mov ax,@data
+   Main: mov ax,@data
       mov ds,ax
       
       mov al, 8h;Numero-
@@ -31,11 +31,11 @@ Main: mov ax,@data
       call Imprimir 
       jmp Finalizar     
       
-Imprimir:    
+   Imprimir:    
       mov ah,09
       int 21h
       ret
-Finalizar:
+   Finalizar:
       mov ax, 04c00h
       int 21h
       
