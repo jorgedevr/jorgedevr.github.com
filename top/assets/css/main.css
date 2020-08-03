@@ -23,7 +23,7 @@ a:hover{
 }
 
 a:focus{
-  background: red;
+  background: orange;
 
 }
 .title{
@@ -118,7 +118,7 @@ th{
 
 }
 .fa-star{
-  color:#ffff00;
+  color:#F8961e;
   font-size: 24px;
   padding: 0.05em;
 
@@ -128,7 +128,7 @@ th{
   font-size: 32px;
 }
 .fa-facebook-messenger{
-  color:#0000ff;
+  color:#00c6ff;
   font-size: 32px;
 }
 .fa-phone{
@@ -161,11 +161,22 @@ th{
 }
 
 .address{
+  
   font-weight: bold;
-  color: #2c3e50;
+  color: #E84855;
   font-size: 1.2em;
-  margin-top: 2em;
+  margin-top: 0.5em;
+
   display: inline-block;
+
+}
+.adress{
+
+  font-weight: bold;
+  color: #F8961e;
+  font-size: 1.2em;
+  margin-top: 0.2em;
+
 }
 
 .main-image{
